@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import SignIn from './layouts/signIn';
-import SignUp from './layouts/signUp';
+import LoginReg from './layouts/loginReg';
 
 Vue.use(Router);
 
@@ -10,19 +9,9 @@ export default new Router({
     base: process.env.BASE_URL,
     routes: [
         {
-            path: '/signIn',
-            name: 'signIn',
-            component: SignIn,
-        },
-        {
             path: '*',
-            name: 'signIn',
-            component: SignIn,
-        },
-        {
-            path: '/signUp',
-            name: 'signUp',
-            component: SignUp,
-        },
+            name: 'loginRegistration',
+            component: LoginReg,
+        }
     ],
 });
