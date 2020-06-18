@@ -1,8 +1,9 @@
-# vue-tutorial
+# Vue.js 
+## DOUBLE SLIDER SIGN IN/UP FORM
 
 ## Project setup
 ```
-npm install
+npm install / yarn 
 ```
 
 ### Compiles and hot-reloads for development
