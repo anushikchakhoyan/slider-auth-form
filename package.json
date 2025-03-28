@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "sass": "^1.86.0",
-    "vue": "^2.5.21",
+    "vue": "^3.0.0",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
